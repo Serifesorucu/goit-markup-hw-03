@@ -1,0 +1,177 @@
+:root {
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --navy-blue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --light-slate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navy-blue-modal: #2E2F42;
+    --grey: #2E2F42;
+    --white: #FFFFFF;
+    --dairy: #FCFCFC;
+    --font-h1: 56px;
+    --font-h2: 36px;
+    --f0nt-h3: 20px;
+    --font-body: 16px;
+    --font-small: 12px;
+    --font-medium: 16px;
+    --font-button-text: 16px;
+    --font-link: 12px;
+    --font-team: 16px;
+    --font-footer-logo: 18px;
+    --line-height-h1: 1.07;
+    --line-height-h2: 1.11;
+    --line-height-h3: 1.2;
+    --line-height-section-description: 1.5;
+    --line-height-team-title: 1.5;
+    --line-height-portfolio: 1.5;
+    --line-height-footer-logo: 1,16;
+    --letter-spacing-h1: 1.12;
+    --letter-spacing-h2: 0.72,
+    --letter-spacing-h3: 0.4;
+    --letter-spacing-section-description: 0.32;
+    --letter-spacing-team-title: 0.32,
+    --letter-spacing-portfolio: 0.32;
+    --letter-spacing-footer-logo: 0.54;
+}
+
+body {
+ font-family: 'Roboto', sans-serif;
+}
+.logo {
+ color: var(--iris);
+ font-family: 'Raleway', sans-serif;
+ font-weight: 700;
+ font-size: var(--font-footer-logo);
+ letter-spacing: var(--letter-spacing-footer-logo);
+ line-height: var(--line-height-footer-logo);
+ text-decoration: none;
+}
+.logo span {
+ color: var(--navy-blue);
+}
+.nav-menü {
+ background-color: var(--white);
+ color: var(--navy-blue);
+}
+
+.nav-list-ul {
+  color: var(--navy-blue);
+}
+.nav-li {
+ color: var(--navy-blue);
+ font-size: var(--font-body);
+ font-weight: 500;
+ line-height: var(--line-height-portfolio);
+ letter-spacing: var(--line-height-portfolio);
+ text-decoration: none;
+}
+.nav-li:hover {
+ color: var(--ocean);
+}
+.address {
+ background-color: var(--white);
+}
+a {
+  color: var(--slate);
+  font-size: 16;
+  font-weight: 500;
+  line-height: var(--line-height-portfolio);
+  letter-spacing: var(--line-height-portfolio);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--ocean);
+}
+.section {
+ background-color: var(--navy-blue);
+}
+
+.Order-button {
+    background-color: var(--iris);
+    color: var(--white);
+    cursor: pointer;
+    font-weight: 500;
+    width: 169px;
+    height: 56px;
+    padding: 8px;
+    border-radius: 4px;
+}
+.Order-button:hover {
+   background-color: var(--ocean);
+}
+h1 {
+ color: var(--white);
+ background-color: var(--navy-blue);
+ height: 159px;
+ width: 1050px;
+ font-size: var(--font-h1);
+ font-weight: 700;
+ line-height : var(--font-height-h1);
+ letter-spacing: var(--letter-spacing-h1);
+}
+
+
+h2 {
+background-color: var(--white);
+ color: var(--navy-blue);
+ font-size: var(--font-h2);
+ font-weight: 700;
+ line-height: var(--line-height-h2);
+ letter-spacing: var(--letter-spacing-h2);
+}
+
+h3 {
+ color: var(--navy-blue) 
+ font-size: var(font-h3)
+ font-weight: 500; 
+ line-height: var(line-height-h3);
+ letter-spacing; var(letter-spacing-h3);
+ } 
+.Section-description {
+ color: var(--slate);
+ font-size: var(--font-medium);
+ font-weight: 400;
+ line-height: var(--line-height-section-description);
+ letter-spacing: var(--letter-spacing-section-description);
+}
+.Team-title {
+  color: var(--slate); 
+  font-size: var(--font-team); 
+  font-weight: 400;
+  line-height: var(--line-height-team-title);
+  letter-spacing: var(--letter-spacing-team-title);
+}
+.Portfolio {
+ color: var(--slate);
+ font-size: var(--font-medium);
+ font-weight: 400;
+ line-height: var(--line-height-portfolio);
+ letter-spacing: var(--line-height-portfolio);
+}
+
+footer {
+ background-color: var(--navy-blue);
+ height: 312px;
+ width: 1440px;
+}
+.footer-logo {
+  color: var(--iris);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: var(--font-footer-logo);
+  line-height: var(--line-height-footer-logo);
+  letter-spacing: var(--letter-spacing-footer-logo);
+  text-decoration: none;
+}
+.footer-logo-span {
+ color: var(--cloud);
+}
+.footer-text {
+  color: var(--cloud);
+  font-size: var(--font-body);
+  line-height: var(--line-height-portfolio);
+  letter-spacing: var(--letter-spacing-portfolio);
+}
