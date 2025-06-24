@@ -1,3 +1,5 @@
+
+
 :root {
     --iris: #4D5AE5;
     --ocean: #404BBF;
@@ -40,6 +42,55 @@
 body {
  font-family: 'Roboto', sans-serif;
 }
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p  {
+ margin-top: 0;
+ margin-bottom: 0;
+}
+
+.container-header {
+  width: 1440px;
+  height: 72px;
+ display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 24px;
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.nav-menu {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
 .logo {
  color: var(--iris);
  font-family: 'Raleway', sans-serif;
@@ -59,7 +110,10 @@ body {
 
 .nav-list-ul {
   color: var(--navy-blue);
+  
 }
+
+
 .nav-li {
  color: var(--navy-blue);
  font-size: var(--font-body);
@@ -68,6 +122,8 @@ body {
  letter-spacing: var(--line-height-portfolio);
  text-decoration: none;
 }
+
+
 .nav-li:hover {
  color: var(--ocean);
 }
@@ -85,8 +141,59 @@ a {
 a:hover {
   color: var(--ocean);
 }
+
+
+.conteiner-ilk-bölüm {
+ display: inline-block;
+  background-color: var(--navy-blue);
+ width: 1440px;
+ height: 600px;
+ top: 72px;
+ margin-top: 0;
+}
+
+
+
+
+
 .section {
- background-color: var(--navy-blue);
+ /*background-color: var(--navy-blue);
+ width: 1440px;
+ height: 600px;
+ top: 72px;
+ margin-top: 0;*/
+}
+ 
+
+.section-title {
+    color: var(--white);
+   /* cursor: pointer */
+    font-weight: 500;
+    width: 496px;
+    height: 120px;
+    /*border-radius: 4px; */
+    padding: 8px;
+    margin-top: 98px;
+    margin-left: 236px;
+    margin-right: 236px; 
+    margin-bottom: 146px;
+    justify-content: center;
+   /* align-items: center; */
+}
+
+.container-button {
+   color: var(--white);
+   /* cursor: pointer */
+    font-weight: 500;
+    width: 496px;
+    height: 120px;
+    /*border-radius: 4px; */
+    padding: 8px;
+    margin-top: 48px;
+    margin-left: 636px;
+    margin-right: 636px; 
+    margin-bottom: 188px;
+    justify-content: center;
 }
 
 .Order-button {
@@ -98,20 +205,113 @@ a:hover {
     height: 56px;
     padding: 8px;
     border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    
 }
+
 .Order-button:hover {
    background-color: var(--ocean);
 }
 h1 {
  color: var(--white);
  background-color: var(--navy-blue);
- height: 159px;
- width: 1050px;
+ height: 120px;
+ width: 496px;
  font-size: var(--font-h1);
  font-weight: 700;
  line-height : var(--font-height-h1);
  letter-spacing: var(--letter-spacing-h1);
+ text-align: center;
+ padding-right: 472px;
+ padding-left: 472px;
+ padding-bottom: 260px;
+ padding-top: 188px;
 }
+
+
+
+img {
+ display: block;
+}
+
+
+
+
+
+
+.Section-description-section {
+  width: 1128px;
+  height: 104px;
+  background-color: var(--white);
+  border: 1 solid white;
+  margin-top: 120px;
+  margin-left: 156px;
+  margin-right: 156px;
+}
+
+.Section-description-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+}
+
+
+.Our-team {
+  width: 1440px;
+  height: 732px;
+  background-color: var(--white) ;
+  margin-top: 120px;
+}
+
+.our-team-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px; 
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-top: 72px;
+  padding-bottom: 120px;
+}
+
+
+
+
+
+
+.container-portfolio {
+  display: block;
+  width: 1128px;
+  height: 1000px;
+  background-color: var(--white);
+  border: 1px solid white;
+  top: 1868px;
+  left:156px
+ 
+}
+
+
+
+
+
+/*.Portfolio-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px; 
+  margin-top: 48px;
+  flex-wrap: wrap;
+   text-transform: capitalize;
+   margin-left: 156px;
+ } */
+
+.Portfolio-item {
+   width: 360px;
+  height: 420px; 
+ } 
+
 
 
 h2 {
@@ -121,6 +321,14 @@ background-color: var(--white);
  font-weight: 700;
  line-height: var(--line-height-h2);
  letter-spacing: var(--letter-spacing-h2);
+ text-align: center;
+ display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /*padding-top: 120px;
+  padding-bottom: 572px;
+  padding-left: 639px;
+  padding-right: 639px;*/
 }
 
 h3 {
@@ -128,8 +336,29 @@ h3 {
  font-size: var(font-h3)
  font-weight: 500; 
  line-height: var(line-height-h3);
- letter-spacing; var(letter-spacing-h3);
+ letter-spacing: var(letter-spacing-h3);
+ display: flex;
+ flex-direction: row;
  } 
+
+ .div-portfolio-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 218px;
+  height: 40px;
+  margin-bottom: 72px;
+  margin-left: 611px;
+  margin-right: 611px;
+ }
+
+/*.Portfolio-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center; */
+}
 .Section-description {
  color: var(--slate);
  font-size: var(--font-medium);
@@ -137,6 +366,9 @@ h3 {
  line-height: var(--line-height-section-description);
  letter-spacing: var(--letter-spacing-section-description);
 }
+
+
+
 .Team-title {
   color: var(--slate); 
   font-size: var(--font-team); 
@@ -152,10 +384,52 @@ h3 {
  letter-spacing: var(--line-height-portfolio);
 }
 
+.portfolioDiv1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px; 
+  width: 1128px;
+  height: 400px;
+  margin-left: 156px;
+  margin-right: 156px;
+  margin-top: 36px;
+  margin-bottom: 24px;
+}
+
+.portfolioDiv2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px; 
+  width: 1128px;
+  height: 400px;
+  margin-left: 156px;
+  margin-right: 156px;
+  margin-top: 24px;
+  margin-bottom: 120px;
+}
+
+.containerDiv {
+  width: 264px;
+  height: 112px;
+  margin-top: 50px;
+  margin-right: 1020px;
+  margin-left: 78px;
+}
+/*.containerDiv {
+  width: 1440px;
+  height: 312px;
+  margin-top: 120px;
+} */
 footer {
  background-color: var(--navy-blue);
  height: 312px;
  width: 1440px;
+ padding-left: 156px;
+padding-right: 1020px;
+ padding-top: 100px;
+ padding-bottom: 100px;
 }
 .footer-logo {
   color: var(--iris);
