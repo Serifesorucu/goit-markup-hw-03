@@ -38,7 +38,9 @@
     --letter-spacing-portfolio: 0.32;
     --letter-spacing-footer-logo: 0.54;
 }
-
+* {
+  list-style-type:none;
+}
 body {
  font-family: 'Roboto', sans-serif;
 }
