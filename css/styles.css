@@ -41,6 +41,12 @@
 * {
   list-style-type:none;
 }
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+}
+
 body {
  font-family: 'Roboto', sans-serif;
 }
@@ -60,9 +66,7 @@ h1, h2, h3, h4, h5, h6, p  {
 
 
 
-.container {
-  margin: 0 auto;
-}
+
 
 
 
@@ -153,7 +157,7 @@ a:hover {
 }
 
 
-.conteiner-ilk-bölüm {
+.conteiner-ilk-bolum {
  display: inline-block;
   background-color: var(--navy-blue);
  width: 1440px;
@@ -212,6 +216,7 @@ a:hover {
     width: 169px;
     height: 56px;
     padding: 8px;
+    border: none;
     border-radius: 4px;
     justify-content: center;
     align-items: center;
