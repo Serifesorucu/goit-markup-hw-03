@@ -307,7 +307,7 @@ img {
   width: 1128px;
   height: 1000px;
   background-color: var(--white);
-  border: 1px solid white;
+  /*border: 1px solid white;*/
   top: 1868px;
   left:156px
  
