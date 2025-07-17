@@ -439,6 +439,7 @@ h3 {
 .Portfolio-item {
   width: 360px;
   height: 420px;
+  border: 1px white;
 }
 .containerDiv {
   width: 264px;
